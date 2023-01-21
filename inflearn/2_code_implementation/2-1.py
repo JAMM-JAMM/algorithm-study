@@ -21,7 +21,7 @@ K번째 약수
 # else:
 #     print(divs[k-1])
 
-# # 강사님 풀이
+# # 다른 풀이
 
 # import sys
 

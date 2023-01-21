@@ -17,7 +17,7 @@ K번째 수
 #     n_nums = sorted(nums[s-1:e])
 #     print(n_nums[k-1])
 
-# # 강사님 풀이
+# # 다른 풀이
 
 # import sys
 # sys.stdin=open("input.txt", "r")
