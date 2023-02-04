@@ -1,9 +1,12 @@
 def solution(s):
-    cnt_p = 0
-    cnt_y = 0
+    s = s.lower()
+    cnt_p = 0; cnt_y = 0
     for i in s:
-        if i == 'p' or i == 'P':
+        if i == 'p':
             cnt_p += 1
-        elif i == 'y' or i == 'Y':
+        elif i == 'y':
             cnt_y += 1
-    return True if cnt_p == cnt_y else False
+    if cnt_p == cnt_y:
+        return True
+    else:
+        return False
