@@ -1,5 +1,7 @@
 def solution(x, n):
-    result = []
-    for i in range(n):
-        result.append(x + (x * i))
-    return result
+    ans = []
+    init_x = x
+    for _ in range(n):
+        ans.append(x)
+        x += init_x
+    return ans
