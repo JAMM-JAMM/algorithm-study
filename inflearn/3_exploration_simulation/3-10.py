@@ -24,7 +24,7 @@ def sudoku(mat):
             ch_rec = [0] * 10
             for k in range(3):
                 for s in range(3):
-                    ch_rec[n_mat[i*3+k][j*3+k]] = 1
+                    ch_rec[n_mat[i*3+k][j*3+s]] = 1
             if sum(ch_rec) != 9:
                 return False
     return True

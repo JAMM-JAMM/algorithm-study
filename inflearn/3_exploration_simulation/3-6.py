@@ -94,8 +94,8 @@ for i in range(n):
 
 a_axis_sum = 0; b_axis_sum = 0
 for i in range(n):
-    a_axis_sum += n_mat[i][i]
-    b_axis_sum += n_mat[i][n-i-1]
+    a_axis_sum += n_mat[i][i] # 정방향 대각선의 합
+    b_axis_sum += n_mat[i][n-i-1] # 역방향 대각선의 합
 if a_axis_sum > largest:
     largest = a_axis_sum
 if b_axis_sum > largest:
